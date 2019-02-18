@@ -1,0 +1,98 @@
+
+			*{
+				margin: 0;
+				padding:0;
+				font-family:  'Open Sans', sans-serif;
+				border: none;
+			}
+			.center{
+				margin: auto;
+				background-color: #fff;
+				width: 600px;
+				height: 600px;
+				border-radius: 50%;
+			}
+			h1{
+			    color: #495678;  
+				text-align: center;
+				margin-top: 20px;
+				padding-top: 50px;
+				font-size: 30px;
+				display: block;
+				text-decoration: none;
+			}
+			form{
+				background-color: #495678;
+				width: 280px;
+				margin: 40px auto;
+				padding:40px 0 30px 40px ;
+				box-shadow: 6px 6px #3d4a65;
+				border-radius: 5%;
+			}
+			.btn{
+				outline: none;
+				cursor: pointer;
+				font-size: 20px;
+				height: 45px;
+				width: 45px;
+				margin: 5px 0 5px 10px;
+			}
+			.btn #display form{
+				border-radius: 25px;
+			}
+			#display{
+				outline: none;
+				width: 165px;
+				background-color: #98d1dc;
+				color: #dededc;
+				height: 47px;
+				text-align: right;
+				border-radius: 30px 30px 30px 30px;
+				margin-left: 10px;
+				padding-right: 2px;
+				font-size: 20px;
+				box-shadow: inset 6px 6px #3facc0; 
+			}
+			.number{
+				background-color: #72778b;
+				color: #dededc;
+				box-shadow: 0 5px #5f6680;
+			}
+			.number:active{
+				box-shadow: 0 2px #5f6680;
+				-webkit-transform:translateY(2px);
+				-moz-transform:translateY(2px);
+				-ms-transform:translateY(2px) ;
+				transform: translateY(2px);
+			}
+			.operator{
+				background-color: #dededc;
+				box-shadow: 0 5px #bebebe;
+				color: #72778b;
+			}
+			.add,.dow,.right{
+				font-weight: bold;
+			}
+			.operator:active{
+				box-shadow: 0 2px #bebebe;
+  				-webkit-transform: translateY(2px);
+  				-ms-transform: translateY(2px);
+  				-moz-tranform: translateY(2px);
+ 			 	transform: translateY(2px);
+			}
+			.other{
+				background-color: #e3844c;
+				box-shadow: 0 5px #e76a3d;
+				color: #dededc;
+			}
+			.other:active{
+				box-shadow: 0 2px  #e76a3d;
+  				-webkit-transform: translateY(2px);
+  				-ms-transform: translateY(2px);
+  				-moz-tranform: translateY(2px);
+ 			 	transform: translateY(2px);
+			}
+			input{
+				border-radius:50% ;
+			}
+	
